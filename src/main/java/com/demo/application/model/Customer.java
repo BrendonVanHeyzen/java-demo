@@ -1,4 +1,4 @@
-package com.mkyong.common.model;
+package com.demo.application.model;
 
 public class Customer{
 

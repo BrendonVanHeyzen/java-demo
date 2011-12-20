@@ -1,10 +1,10 @@
-package com.mkyong.common.validator;
+package com.demo.application.validator;
 
 import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
 
-import com.mkyong.common.model.Customer;
+import com.demo.application.model.Customer;
 
 public class CustomerValidator implements Validator{
 

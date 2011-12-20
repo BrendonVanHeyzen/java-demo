@@ -1,4 +1,4 @@
-package com.mkyong.common.controller;
+package com.demo.application.controller;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -19,8 +19,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.support.SessionStatus;
 
-import com.mkyong.common.model.Customer;
-import com.mkyong.common.validator.CustomerValidator;
+import com.demo.application.model.Customer;
+import com.demo.application.validator.CustomerValidator;
 
 @Controller
 @RequestMapping("/login")

@@ -7,8 +7,8 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
-   <context:component-scan base-package="com.mkyong.common.controller" />
-   <bean class="com.mkyong.common.validator.CustomerValidator" />
+   <context:component-scan base-package="com.demo.application.controller" />
+   <bean class="com.demo.application.validator.CustomerValidator" />
 
    <bean
       class="org.springframework.web.servlet.view.InternalResourceViewResolver">

@@ -1,4 +1,4 @@
-package com.mkyong.common.controller;
+package com.demo.application.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
